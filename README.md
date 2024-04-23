@@ -1,5 +1,5 @@
 # K-digital 7기 javascript
-+ 04.22 : html/css
++ 04.22 : html/css/git
 + 04.23 : js
 
 ## 마크다운
