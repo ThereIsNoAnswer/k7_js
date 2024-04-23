@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a, a:link, a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+
+div{
+    text-align: center;
+    margin:auto;
+    padding-top:5vh;
+    width: 60vw;
+}
+
+div h1{
+    border: solid black 1px;
+    padding: 0.3rem;
+    margin: 0.5rem;
+    margin: auto;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    margin: 0.5rem 0.5rem;
+    background-color: darkgray;
+}
+
+nav ul li:hover{
+    background-color: lightslategray;
+}
+
+div> ul li{
+    padding : 1rem;
+    width: 70%;
+    margin: 1rem auto;
+    background-color: whitesmoke;
+    text-align: left;
+}
+
+div> ul li:hover{
+    background-color: darkgrey;
+}
+
+
