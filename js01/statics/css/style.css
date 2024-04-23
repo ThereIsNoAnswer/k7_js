@@ -47,16 +47,26 @@ nav ul li:hover{
     background-color: lightslategray;
 }
 
-#conatiner section> ul li{
-    padding : 1rem;
-    width: 70%;
-    margin: 1rem auto;
-    background-color: whitesmoke;
-    text-align: left;
+div{
+    width: 100%;
+    height: 5rem;
+    border : 1px solid black;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#conatiner section> ul li:hover{
-    background-color: darkgrey;
+div button{
+    margin: 0 1rem;
+    padding :0.5rem 1rem;
+    border-radius: 5px;
+    background-color:transparent;
 }
+
+div button:hover{
+    background-color: whitesmoke;
+}
+
 
 
