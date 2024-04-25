@@ -27,5 +27,4 @@ document.addEventListener("DOMContentLoaded",()=>{
             else resultText.textContent="fail"
         })
     }
-    
 })

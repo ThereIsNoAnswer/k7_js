@@ -1,0 +1,45 @@
+.layout{
+    width: 100%;
+    height: auto;
+    min-height: 5rem;
+    padding: 1rem;
+    border : 1px solid black;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout >div{
+    width: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+#msg{
+    flex-direction: column;
+}
+
+.resultDiv{
+    display: flex;
+}
+
+.resultDisplay{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+input[type=number]{
+    height: 2rem;
+    margin :1rem;
+}
+
+
+
+
+
+
+
