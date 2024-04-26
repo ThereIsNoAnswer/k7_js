@@ -1,0 +1,43 @@
+.article-conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.article-conatiner> div{
+    margin: 1rem 0;
+    border: 1px solid black;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+}
+.title{
+    justify-content: center;
+    height: 5rem;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    height: 10rem;
+}
+
+.main> div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.main> div> select{
+    margin: 5% 0;
+    height: 2rem;
+}
+
+.main> div> div> input{
+    height : 2rem;
+}
+
