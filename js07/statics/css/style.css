@@ -1,0 +1,23 @@
+.article-conatiner{
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.title{
+    text-align: left;
+}
+
+.main>div{
+    margin-top: 1rem;
+}
+
+.main>div>input{
+    width: 49%;
+    height: 2rem;
+}
+
+.main>div>button{
+    width: 32.5%;
+}
