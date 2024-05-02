@@ -1,0 +1,44 @@
+.article-conatiner{
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#result{
+    height: 5rem;
+    border: 1px solid black;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+span{
+    font-weight: bold;
+}
+
+.numbers{
+    margin: 0 0.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+
+.numbers0{ background-color: orange;}
+.numbers1{ background-color: blue;}
+.numbers2{ background-color: red;}
+.numbers3{ background-color: darkgray;}
+.numbers4{ background-color: green;}
+
+.bonus{
+    background-color: blueviolet;
+}
+
